@@ -6,5 +6,3 @@ $\color{#FFFFFF}{\text{Is gonna be a new rhythm game in sonolus. Is not aviable 
 - $\color{#FFFFFF}{\text{Nothing}}$
 
 > ### Is still in construction : )
-
-**Mandarine**/[Tangerine](./tan.md)
