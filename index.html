@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,6 +54,21 @@
             color: #FFF;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
         }
+        .change {
+            background: linear-gradient(180deg, 
+             #4f5d95, #555555, #e2943a, #db5079, 
+            #7c243d, #ffae42, #e30b5d, #ff0000, 
+            #4f5d95);
+        background-size: 100% 1000%;
+        animation: gradientMove 12s linear infinite;
+        color: #FFF;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    @keyframes gradientMove {
+        0% { background-position: 0% 0%; }
+        100% { background-position: 0% 100%; }
+    }
     </style>
 </head>
 <body>
@@ -63,6 +78,7 @@
     <p>You can find the new rhythm game soon</p>
     <div class="buttons-wrapper">
         <a href="sonolus://shir0g4ne.github.io/mandarine" class="button sonolus">Open in Sonolus</a>
+        <a href="change.html" class="button change">Change Theme</a>
     </div>
 </div>
 </body>
